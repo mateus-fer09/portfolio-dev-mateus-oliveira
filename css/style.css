@@ -460,6 +460,7 @@ main {
     background-color: var(--black1);
     box-shadow: 0 0 5px var(--black2);
     border: 1px solid var(--black2);
+    color: var(--white2);
 }
 
 .contato .contato-content .form form input[type="text"]:focus {
