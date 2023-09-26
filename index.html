@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Mateus Oliveira</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/white-theme.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/projeto-pessoal.js" defer></script>
+</head
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">Mateus Oliveira</a>
+            <span>Desenvolvedor Web | Front-end</span>
+            <div class="skill">
+                <i class="fa-brands fa-html5" title="HTML 5"></i>
+                <i class="fa-brands fa-css3-alt" title="CSS 3"></i>
+                <i class="fa-brands fa-js" title="JavaScript"></i>
+                <i class="fa-brands fa-github" title="GiHub"></i>
+                <i class="fa-brands fa-react" title="React"></i>
+            </div>
+        </div>
+        <div class="navegation">
+            <div class="navegation-content">
+                <a href="#about">Quem sou eu</a>
+                <a href="#projetos">Projetos</a>
+                <!-- <a href="#">Blog</a> -->
+                <a href="#contato">Contato</a>
+            </div>
+            <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+        </div>
+        <div class="theme">
+            <i class="fa-solid fa-lightbulb"></i>
+            <i class="fa-regular fa-lightbulb"></i>
+        </div>
+        <i class="fa-solid fa-bars" onclick="openNav()"></i>
+    </header>
+    <main>
+        <section class="about">
+            <div class="about-content" id="about">
+                <img src="img/EU 2.png" alt="Eu: Mateus">
+                <div class="headline">
+                    <h1>Sobre mim</h1>
+                    <p>"Olá, sou o <strong>Mateus</strong> e atuo como <strong>desenvolvedor web</strong> há 9 meses. Desde o início da minha jornada, venho me dedicando intensamente a aprimorar minhas habilidades neste campo, e hoje domino uma ampla gama de conceitos do <strong>Front-end</strong>, incluindo responsividade.</p>
+                    <p>Considero-me uma pessoa <strong>comprometida</strong> e <strong>concentrada</strong>. Uma parte substancial do meu conhecimento foi adquirida através de pesquisa <strong>independente</strong> e <strong>aprendizado prático.</strong> Embora eu não tenha uma formação acadêmica <strong>formal</strong> ou dependido exclusivamente de <strong>cursos online</strong>, essa abordagem permitiu-me mergulhar profundamente nos aspectos práticos da programação web e desenvolver habilidades sólidas por conta própria.</p>
+                    <p>Estou entusiasmado com a ideia de fazer parte de uma equipe, onde possa <strong>contribuir</strong> com meu conjunto de habilidades e, ao mesmo tempo, <strong>continuar aprendendo.</strong> Estou em busca de oportunidades que me desafiem e me permitam crescer como desenvolvedor."</p>
+                </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <h1>Projetos</h1>
+            <div class="projeto-portfolio">
+                <div class="icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Meu Portófilio</h3>
+                </div>
+                <div class="descripition">
+                    <div class="comentario">
+                        <div class="img"></div>
+                        <div class="headline">
+                            <h4>@mateus_oliveira</h4>
+                            <p>Dedicação e muita mão na massa!</p>
+                            <button id="projeto-open">#vermais</button>
+                        </div>
+                    </div>
+                    <div class="painel-projeto-portfolio">
+                        <div class="painel-projeto-portfolio-content">
+                            <div class="detalhes">
+                                <i style="font-size: 3em; text-align: center; color: purple; width: 100%; margin-left: 10px; margin-bottom: 20px;" class="bi bi-suitcase-lg"></i>
+
+                                <h3>Meu Portfólio</h3>
+                                <p>Destacar meu próprio portfólio é um momento especial para mim. Foi um desafio empolgante criá-lo, principalmente devido à minha ambição de incorporar a renderização dinâmica dos meus projetos.</p>
+
+                                <p>Ao construir este espaço virtual, meu objetivo era criar não apenas um portfólio, mas uma experiência que refletisse minha jornada como desenvolvedor. O desafio estava em garantir que cada projeto que eu compartilhasse aqui fosse apresentado de forma dinâmica e envolvente, permitindo que os visitantes explorassem meu trabalho de maneira interativa.</p>
+                                
+                                <p>A busca pela renderização dinâmica não apenas testou minhas habilidades técnicas, mas também demonstrou minha paixão por proporcionar experiências únicas na web. Afinal, o desenvolvimento web não se trata apenas de códigos, mas de criar algo que envolva e inspire as pessoas.</p>
+                                
+                                <p>Espero que você aproveite a visita ao meu portfólio tanto quanto eu aproveitei criá-lo. Este é apenas o começo de uma jornada emocionante, e mal posso esperar para compartilhar mais projetos e aprendizados aqui.</p>
+                                <a href="#">Ver repositório</a>
+                                <button id="projeto-close">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <h1 style="margin-top: 40px;">Outros Projetos</h1>
+            <div class="projetos-content"></div>
+        </section>
+        <section class="contato" id="contato">
+            <h1>Contato</h1>
+            <div class="contato-content">
+                <div class="social">
+                    <a href="https://www.instagram.com/mateuss_hen09" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/mateus-fer09" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mateus-oliveira-9a36581b5/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="form">
+                    <form action="https://api.sheetmonkey.io/form/93qPsJpU39CvfXBh8EECnV" method="post">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome:" required autocomplete="off">
+                        <input type="email" name="email" id="email" placeholder="Seu email:" required autocomplete="off">
+                        <input type="submit" id="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
